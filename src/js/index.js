@@ -15,12 +15,12 @@ window.onload = function(){
     document.querySelector('.error').style.display = "none";
     
     var first = 'A ';
-    var adj = ['giant ','crazy ','loud '];
-    var noun = ['tourist ','airplane ','waterfall '];
-    var action = ['threw ','kicked ', 'smashed '];
+    var adj = ['giant ','crazy ','loud ', 'rude ', 'ferocious ', 'facetious '];
+    var noun = ['tourist ','airplane ','waterfall ', 'comedian ', 'lawyer ', 'hurricane '];
+    var action = ['threw ','kicked ', 'smashed ', 'erased ', 'insulted ', 'grabbed '];
     var my = 'my ';
-    var item = ['backpack ','sunglasses ','shoes '];
-    var location = ['in the garage.','on the train.','in the grocery store.'];
+    var item = ['backpack ','sunglasses ','shoes ', 'coffee ', 'laptop ', 'yoga mat '];
+    var location = ['in the garage.','on the train.','in the grocery store.', 'under the bridge.', 'at the toll.', 'on the beach.'];
     
     var rdmAdj = Math.floor(Math.random()*adj.length);
     var rdmNoun = Math.floor(Math.random()*noun.length);
